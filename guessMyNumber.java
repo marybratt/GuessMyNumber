@@ -15,7 +15,7 @@ public class guessMyNumber {
 			boolean isEqual = checkIfEqual(randomInt, guess);
 			//if not equal you will loop again, if equal will break out of loop
 			if(isEqual) {
-				System.out.println(randomInt);
+			//	System.out.println(randomInt);
 				break;
 			} else {
 				guess = input.nextInt();
@@ -77,6 +77,7 @@ public class guessMyNumber {
 		return isEqual;
 	}
 }
+
 
 
 
